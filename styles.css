@@ -1,0 +1,118 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    color: #fff;
+    background-color: #0a0a0a;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.wrapper {
+    position: relative;
+    height: 90%;
+    width: 50rem;
+    top: 5%;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 30%;
+    width: 100%;
+}
+
+.title {
+    position: relative;
+    top: 30%;
+    left: 10%;
+    font-size: 2rem;
+}
+
+.background {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+
+.projects {
+    position: relative;
+    height: 60%;
+    width: 100%;
+}
+
+.project-container {
+    position: relative;
+    height: 100%;
+    width: max-content;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.project {
+    height: 4rem;
+    width: 100%;
+}
+
+.project-title {
+    display: inline-block;
+    margin-right: 2rem;
+    line-height: 4rem;
+}
+
+.project-desc {
+    display: inline-block;
+    line-height: 4rem;
+    color: #8a8a8a;
+}
+
+
+.contact {
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.email,
+.github,
+.linkedin,
+.email svg,
+.github svg,
+.linkedin svg,
+.email svg path,
+.github svg path,
+.linkedin svg path {
+    height: 2rem;
+    width: 2rem;
+    fill: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
