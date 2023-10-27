@@ -123,7 +123,7 @@ body {
 .contact {
     overflow: visible;
     position: relative;
-    min-height: 4rem;
+    min-height: 5.5rem;
     width: 100%;
 }
 
@@ -134,7 +134,7 @@ body {
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -148,16 +148,24 @@ body {
 .github svg path,
 .linkedin svg path {
     cursor: pointer;
-    height: 2rem;
-    width: 2rem;
-    fill: #fff;
+    height: 1.75rem;
+    width: 1.75rem;
+    fill: #fefefe;
+}
+
+.linkedin {
+    margin-right: 10%;
+}
+
+.email {
+    margin-left: 10%;
 }
 
 .email,
 .email svg,
 .email svg path {
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 2.25rem;
+    width: 2.25rem;
 }
 
 .email:hover *,
@@ -173,14 +181,13 @@ body {
 .email-hover {
     display: none;
     position: absolute;
-    top: -3rem;
-    border: 0.2rem solid #8a8a8a;
-    height: 6rem;
+    top: -2.5rem;
+    height: max-content;
     width: max-content;
-    transform: translate(-40%, 0);
     border-radius: 0.5rem;
-    padding: 1.5rem;
+    padding: 0.75rem;
     background: #1b1a1a;
+    font-size: 1rem;
 }
 
 .email-hover div:first-child {
